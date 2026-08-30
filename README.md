@@ -30,7 +30,7 @@ Spiking Neural Networks
 
 🧠 Neuron Models
 
-'''
+---
 
 🧠 Neuron Models
 
