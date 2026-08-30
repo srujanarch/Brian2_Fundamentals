@@ -55,3 +55,9 @@ Spike generation
 Reset mechanism
 Refractory period
 Numerical simulation
+
+Example Brian2 formulation:
+eqs = '''
+dv/dt = (-(v - EL) + R*I)/tau : volt
+I : amp
+'''
