@@ -30,4 +30,30 @@ Spiking Neural Networks
 
 🧠 Neuron Models
 
+'''
 
+🧠 Neuron Models
+
+The notebook implements and visualizes multiple classical neuron models, ranging from simple integrate-and-fire models to nonlinear dynamical systems.
+
+1. Leaky Integrate-and-Fire (LIF)
+
+The LIF model represents the membrane potential as a leaky integrator.
+
+''' \tau_m \frac{dV}{dt} = -(V-V_L)+RI '''
+
+When the membrane potential reaches the threshold,
+
+''' V \geq V_{th} '''
+
+the neuron generates a spike and the membrane potential is reset.
+
+Concepts explored
+Membrane potential
+Leak current
+External current
+Threshold
+Spike generation
+Reset mechanism
+Refractory period
+Numerical simulation
