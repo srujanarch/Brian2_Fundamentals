@@ -69,6 +69,29 @@ Adaptive models provide a bridge between simple integrate-and-fire neurons and m
 
 ---
 
+## 2. Exponential Leaky Integrate-and-Fire (Exponential LIF / ELIF)
+
+The **Exponential Leaky Integrate-and-Fire (ELIF)** model extends the standard LIF model by introducing a nonlinear exponential term near the firing threshold.
+
+While the standard LIF model has a linear relationship between membrane potential and its rate of change, the exponential term in the ELIF model causes the membrane potential to rise rapidly as it approaches threshold.
+
+This provides a smoother and more biologically realistic transition toward spike generation while retaining the computational simplicity of an integrate-and-fire model.
+
+### Concepts explored
+
+- Extension of the standard LIF model
+- Nonlinear membrane dynamics
+- Exponential spike initiation
+- Membrane potential evolution
+- Threshold behavior
+- Spike generation
+- Reset mechanism
+- Refractory period
+- Comparison between LIF and ELIF
+- Effect of changing model parameters
+
+---  
+
 ## 3. Izhikevich Model
 
 The **Izhikevich neuron model** combines nonlinear membrane dynamics with an adaptation variable.
@@ -580,29 +603,29 @@ The fundamentals stage covers:
 
 - Brian2 fundamentals
 - Physical units
-- ✅ Dimensional analysis
-- ✅ LIF neurons
-- ✅ Adaptive neuron models
-- ✅ Izhikevich neurons
-- ✅ FitzHugh-Nagumo neurons
-- ✅ Morris-Lecar neurons
-- ✅ Hindmarsh-Rose neurons
-- ✅ Excitatory synapses
-- ✅ Inhibitory synapses
-- ✅ Synaptic weights
-- ✅ Synaptic delays
-- ✅ CUBA synapses
-- ✅ COBA synapses
-- ✅ Recurrent networks
-- ✅ Excitatory-inhibitory networks
-- ✅ Poisson input
-- ✅ SpikeMonitor
-- ✅ StateMonitor
-- ✅ PopulationRateMonitor
-- ✅ Raster plots
-- ✅ Membrane-potential visualization
-- ✅ Network activity analysis
-- ✅ STDP
+- Dimensional analysis
+- LIF neurons
+- Adaptive neuron models
+- Izhikevich neurons
+- FitzHugh-Nagumo neurons
+- Morris-Lecar neurons
+- Hindmarsh-Rose neurons
+- Excitatory synapses
+- Inhibitory synapses
+- Synaptic weights
+- Synaptic delays
+- CUBA synapses
+- COBA synapses
+- Recurrent networks
+- Excitatory-inhibitory networks
+- Poisson input
+- SpikeMonitor
+- StateMonitor
+- PopulationRateMonitor
+- Raster plots
+- Membrane-potential visualization
+- Network activity analysis
+- STDP
 
 ---
 
@@ -629,7 +652,7 @@ Future experiments will be developed in separate notebooks covering topics such 
 
 # 🧪 Future Notebook Organization
 
-The project can eventually be organized into separate notebooks for deeper experiments:
+The project will eventually be organized into separate notebooks for deeper experiments:
 
 ```text
 Brian2_Fundamentals/
