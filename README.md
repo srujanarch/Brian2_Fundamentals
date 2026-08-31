@@ -578,8 +578,8 @@ Spiking Neural Networks
 
 The fundamentals stage covers:
 
-- ✅ Brian2 fundamentals
-- ✅ Physical units
+- Brian2 fundamentals
+- Physical units
 - ✅ Dimensional analysis
 - ✅ LIF neurons
 - ✅ Adaptive neuron models
