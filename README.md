@@ -708,13 +708,13 @@ Learning in SNNs
 
 ---
 
-# 👤 Author
+#  Author
 
 **Srujan**
 
 ---
 
-# 📚 References
+#  References
 
 - [Brian2 Documentation](https://brian2.readthedocs.io/)
 - [Brian2 Tutorials](https://brian2.readthedocs.io/en/stable/resources/tutorials/)
