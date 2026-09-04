@@ -1,4 +1,4 @@
-# 🧠 Brian2 Fundamentals
+#  Brian2 Fundamentals
 
 A hands-on computational neuroscience project exploring **biological neuron models, synaptic dynamics, neural networks, and spike-based learning** using [Brian2](https://brian2.readthedocs.io/).
 
@@ -6,7 +6,7 @@ The project progresses from individual neuron models to synapses, neural populat
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 The goal of this project is to understand how mathematical models of neurons and synapses can be implemented, simulated, and visualized computationally.
 
@@ -16,7 +16,7 @@ The overall progression is:
 
 The primary notebook for this stage is:
 
-📓 **`Brian2_Fundamentals.ipynb`**
+ **`Brian2_Fundamentals.ipynb`**
 
 The notebook was developed and tested using **Google Colab**.
 
@@ -24,7 +24,7 @@ The notebook was developed and tested using **Google Colab**.
 
 ---
 
-# 🧠 Neuron Models
+#  Neuron Models
 
 Multiple classical neuron models were implemented and simulated, ranging from simple integrate-and-fire neurons to nonlinear dynamical systems.
 
@@ -173,7 +173,7 @@ This model provides a transition from relatively simple neuron models toward mor
 
 ---
 
-# ⚡ Synaptic Models
+#  Synaptic Models
 
 The project explores how neurons communicate with one another through synaptic connections.
 
@@ -226,7 +226,7 @@ They were used to investigate:
 
 ---
 
-# 🔌 CUBA Synapses
+#  CUBA Synapses
 
 **CUBA (Current-Based Synapses)** models synaptic transmission using currents.
 
@@ -244,7 +244,7 @@ CUBA provides an intuitive starting point for understanding synaptic transmissio
 
 ---
 
-# ⚡ COBA Synapses
+#  COBA Synapses
 
 **COBA (Conductance-Based Synapses)** models synaptic transmission using conductances.
 
@@ -274,7 +274,7 @@ The synaptic current depends on the postsynaptic membrane potential and synaptic
 
 ---
 
-# 🔗 Neural Networks
+#  Neural Networks
 
 After studying individual neurons and synapses, the project progresses toward networks of interacting neurons.
 
@@ -305,7 +305,7 @@ Recurrent connectivity is an important step toward understanding how complex beh
 
 ---
 
-# 🧩 Excitatory-Inhibitory Networks
+#  Excitatory-Inhibitory Networks
 
 Separate excitatory and inhibitory populations were used to study population-level neural dynamics.
 
@@ -327,7 +327,7 @@ This provides a basic framework for studying:
 
 ---
 
-# 🎲 Poisson Input
+#  Poisson Input
 
 Stochastic neural input was explored using Poisson spike trains.
 
@@ -343,7 +343,7 @@ This provides a simple way of introducing randomness into neural simulations.
 
 ---
 
-# 📊 Monitoring and Visualization
+#  Monitoring and Visualization
 
 Brian2 monitoring tools were used to record and visualize neural activity.
 
@@ -393,7 +393,7 @@ This is useful for studying:
 
 ---
 
-# 📈 Neural Activity Visualization
+#  Neural Activity Visualization
 
 Several visualization techniques were explored throughout the simulations.
 
@@ -448,7 +448,7 @@ Raster plots are particularly useful for identifying synchronization and populat
 
 ---
 
-# 🧬 STDP
+#  STDP
 
 **Spike-Timing-Dependent Plasticity (STDP)** was implemented to explore activity-dependent changes in synaptic strength.
 
@@ -487,7 +487,7 @@ STDP introduces the concept of **learning through synaptic plasticity** into spi
 
 ---
 
-# 📐 Brian2 Units
+#  Brian2 Units
 
 One of the important features explored in Brian2 is its built-in physical unit system.
 
@@ -517,7 +517,7 @@ The unit system helps prevent common mistakes such as:
 
 ---
 
-# 🛠️ Technologies
+#  Technologies
 
 The project uses:
 
@@ -530,7 +530,7 @@ The project uses:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 Brian2_Fundamentals/
@@ -546,7 +546,7 @@ Detailed experiments will be developed in separate notebooks.
 
 ---
 
-# 🎯 Learning Progression
+#  Learning Progression
 
 ```text
 LIF
@@ -595,9 +595,7 @@ Spiking Neural Networks
 
 ---
 
-# 📌 Current Status
-
-## Fundamentals — Completed ✅
+#  Current Status
 
 The fundamentals stage covers:
 
@@ -629,7 +627,7 @@ The fundamentals stage covers:
 
 ---
 
-# 🔬 Future Work
+#  Future Work
 
 The fundamentals notebook will remain as the foundation of the project.
 
@@ -650,7 +648,7 @@ Future experiments will be developed in separate notebooks covering topics such 
 
 ---
 
-# 🧪 Future Notebook Organization
+#  Future Notebook Organization
 
 The project will eventually be organized into separate notebooks for deeper experiments:
 
@@ -684,7 +682,7 @@ The current fundamentals notebook acts as the starting point before moving towar
 
 ---
 
-# 🎓 What This Project Covers
+#  What This Project Covers
 
 This project establishes the core concepts required to move into more advanced computational neuroscience and spiking neural network research.
 
