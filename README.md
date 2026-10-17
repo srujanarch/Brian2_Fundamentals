@@ -20,6 +20,8 @@ The primary notebook for this stage is:
 
 The notebook was developed and tested using **Google Colab**.
 
+To run the examples locally, install Brian2 using `pip install brian2`.
+
 > **Note:** This repository focuses on implementing and visualizing the fundamental concepts first. Detailed experiments for individual models and advanced topics will be developed in separate notebooks.
 
 ---
